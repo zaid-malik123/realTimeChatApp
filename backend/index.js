@@ -11,7 +11,7 @@ const messageRoute = require("./routes/message.routes")
 app.use(express.json())
 app.use(cookie())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://realtimechatapp-cbpe.onrender.com",
     credentials:true
 }))
 
