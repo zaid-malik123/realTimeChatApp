@@ -28,7 +28,6 @@ const Login = () => {
         { email, password },
         { withCredentials: true }
       );
-
       /* redux updates */
       dispatch(setUserData(res.data.user));
       dispatch(setSelectedUser(null));

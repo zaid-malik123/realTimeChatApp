@@ -8,4 +8,8 @@ router.post("/login", AuthController.loginController)
 
 router.get("/logout", AuthController.logoutController)
 
+router.get("/work",(req, res)=>{
+    res.send("working")
+})
+
 module.exports = router;

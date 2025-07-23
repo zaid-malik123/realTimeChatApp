@@ -6,7 +6,7 @@ const { Server } = require("socket.io");
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://realtimechatapp-cbpe.onrender.com"
+    origin: "http://localhost:5173"
   },
 });
 
