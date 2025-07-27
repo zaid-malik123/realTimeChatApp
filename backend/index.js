@@ -11,7 +11,7 @@ const messageRoute = require("./routes/message.routes")
 app.use(express.json())
 app.use(cookie())
 app.use(cors({
-    origin: ["https://chatly-mern.onrender.com"],
+    origin: ["https://chatlyy-mern.onrender.com"],
     credentials: true
 }));
 

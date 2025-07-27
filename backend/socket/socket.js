@@ -6,7 +6,7 @@ const { Server } = require("socket.io");
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://chatly-mern.onrender.com"
+    origin: "https://chatlyy-mern.onrender.com"
   },
 });
 
